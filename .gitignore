@@ -1,0 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/employee_app_frontend/node_modules
+/employee_app_frontend/.pnp
+/employee_app_frontend/.pnp.js
+
+# testing
+/employee_app_frontend/coverage
+
+# production
+/employee_app_frontend/build
+
+# misc
+.env
+.venv
+/employee_app_frontend/.env
+/employee_app_frontend/.DS_Store
+/employee_app_frontend/.env.local
+/employee_app_frontend/.env.development.local
+/employee_app_frontend/.env.test.local
+/employee_app_frontend/.env.production.local
+
+/employee_app_frontend/npm-debug.log*
+/employee_app_frontend/yarn-debug.log*
+/employee_app_frontend/yarn-error.log*
+
+db.sqlite3
+/media
+/EmployeeApp/__pycache__
